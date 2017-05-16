@@ -1,0 +1,46 @@
+[{
+	"img":"src/assets/img/alr_sign_02.png",
+	"id":1,
+	"name":"香菇肥牛味妮儿",
+	"num":"库存：20袋",
+	"money":"￥0.50",
+	"pirect":"￥10",
+	"img1":"src/assets/img/shop_18.png",
+	"img2":"src/assets/img/shop_07.png"
+},{
+	"img":"src/assets/img/alr_sign_02.png",
+	"name":"香菇肥牛味妮儿",
+	"id":2,
+	"num":"库存：20袋",
+	"money":"￥0.50",
+	"pirect":"￥10",
+	"img1":"src/assets/img/shop_18.png",
+	"img2":"src/assets/img/shop_07.png"
+},{
+	"img":"src/assets/img/alr_sign_02.png",
+	"name":"香菇肥牛味妮儿",
+	"id":3,
+	"num":"库存：20袋",
+	"money":"￥0.50",
+	"pirect":"￥10",
+	"img1":"src/assets/img/shop_18.png",
+	"img2":"src/assets/img/shop_07.png"
+},{
+	"img":"src/assets/img/alr_sign_02.png",
+	"name":"香菇肥牛味妮儿",
+	"id":4,
+	"num":"库存：20袋",
+	"money":"￥0.50",
+	"pirect":"￥10",
+	"img1":"src/assets/img/shop_18.png",
+	"img2":"src/assets/img/shop_07.png"
+},{
+	"img":"src/assets/img/alr_sign_02.png",
+	"name":"香菇肥牛味妮儿",
+	"id":5,
+	"num":"库存：20袋",
+	"money":"￥0.50",
+	"pirect":"￥10",
+	"img1":"src/assets/img/shop_18.png",
+	"img2":"src/assets/img/shop_07.png"
+}]

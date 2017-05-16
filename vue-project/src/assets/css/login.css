@@ -1,0 +1,318 @@
+@import url(reset.css);
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+.warp {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+}
+.warp {
+  background: url("../assets/img/dengl5.jpg") no-repeat;
+  background-size: 100% auto;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow-y: auto;
+}
+.warp::-webkit-scrollbar {
+  width: 0;
+}
+.warp header {
+  width: 100%;
+  height: 20.8rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-align: center;
+}
+.warp header img {
+  width: auto;
+  height: 8rem;
+  background: none;
+  margin-top: 6.7rem;
+}
+.warp header p {
+  margin-top: 0.15rem;
+  font-size: 1.8rem;
+}
+.warp section {
+  -webkit-box-flex: 1;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.warp section .yanhao {
+  margin-bottom: 1.4rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  box-sizing: border-box;
+  padding: 0 3.8rem;
+  width: auto;
+  height: 3rem;
+  background: none;
+}
+.warp section .yanhao .left {
+  width: auto;
+  height: 3rem;
+  background: none;
+}
+.warp section .yanhao .left img {
+  width: auto;
+  height: 3.5rem;
+  background: none;
+}
+.warp section .yanhao .rigth {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-flex: 1;
+  margin-left: 1.4rem;
+  line-height: 3rem;
+  border-bottom: 2px solid #fba260;
+}
+.warp section .yanhao .rigth input {
+  border: none;
+  outline: none;
+  background: none;
+}
+.warp section .yanhao1 {
+  margin-bottom: 3rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  box-sizing: border-box;
+  padding: 0 3.8rem;
+  width: auto;
+  height: 3rem;
+  background: none;
+}
+.warp section .yanhao1 .left {
+  width: auto;
+  height: 3rem;
+  background: none;
+}
+.warp section .yanhao1 .left img {
+  width: auto;
+  height: 3.5rem;
+  background: none;
+}
+.warp section .yanhao1 .rigth {
+  -webkit-box-flex: 1;
+  margin-left: 1.4rem;
+  line-height: 3rem;
+  position: relative;
+  border-bottom: 2px solid #fba260;
+}
+.warp section .yanhao1 .rigth input {
+  border: none;
+  outline: none;
+  background: none;
+}
+.warp section .yanhao1 .rigth img {
+  position: absolute;
+  right: 0.3rem;
+  top: 0.9rem;
+  width: auto;
+  height: 1.6rem;
+  background: none;
+}
+.warp section .denglu {
+  margin-bottom: 1rem;
+  width: 100%;
+  height: auto;
+  background: none;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.warp section .denglu button {
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  height: 4rem;
+  background: #ff7d1b;
+  color: #FFFFFF;
+  font-size: 1.8rem;
+}
+.warp section .wangji {
+  padding: 0 1.5rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  box-sizing: border-box;
+}
+.warp section .wangji .left span {
+  color: #527dae;
+  font-size: 1.2rem;
+}
+.warp section .wangji .center {
+  -webkit-box-flex: 1;
+}
+.warp section .wangji .rigth span {
+  font-size: 1.2rem;
+  color: #527dae;
+}
+
+
+
+
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+}
+.wrap header {
+  width: 100%;
+  height: 4.2rem;
+  background: #f7f7f7;
+  border-bottom: 1px solid #e4e4e4;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 4.2rem;
+}
+.wrap header .left {
+  position: absolute;
+}
+.wrap header .left img {
+  width: auto;
+  height: 1.8rem;
+  background: none;
+}
+.wrap header .center {
+  font-size: 1.6rem;
+}
+.wrap section {
+  flex: 1;
+}
+.wrap section .reset {
+  width: 100%;
+  height: 15.6rem;
+  background: none;
+  border-bottom: 1px solid #e4e4e4;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.wrap section .reset .one {
+  width: 100%;
+  height: 3.8rem;
+  background: none;
+  border-bottom: 1px solid #e4e4e4;
+  line-height: 3.8rem;
+}
+.wrap section .reset .one input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #bebebe;
+}
+.wrap section .reset .two {
+  width: 100%;
+  height: 3.8rem;
+  background: none;
+  line-height: 4rem;
+  display: flex;
+  flex-direction: row;
+}
+.wrap section .reset .two input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #bebebe;
+  flex: 1;
+}
+.wrap section .reset .two span {
+  display: inline-block;
+  width: 7rem;
+  height: auto;
+  background: none;
+  border-left: 1px solid #e4e4e4;
+  line-height: 4rem;
+  text-align: center;
+}
+.wrap section .submit {
+  width: 100%;
+  height: 4rem;
+  background: none;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  margin-top: 2rem;
+}
+.wrap section .submit a {
+  display: block;
+  width: 100%;
+  height: 4rem;
+  background: #ff7d1b;
+  font-size: 1.8rem;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 4rem;
+}
+.wrap .zhezhao {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  opacity: 0.5;
+}
+.wrap .sorry {
+  display: none;
+  padding: 0 3rem;
+  box-sizing: border-box;
+  z-index: 10;
+}
+.wrap .sorry .div {
+  width: 100%;
+  height: 12rem;
+  background: #ffffff;
+  margin-top: -23rem;
+  border-radius: 5px;
+  text-align: center;
+}
+.wrap .sorry .div img {
+  width: auto;
+  height: 4rem;
+  background: none;
+  margin: 1.8rem 0;
+}
+.wrap .sorry .div p {
+  font-size: 14px;
+}
+.wrap .yanzheng {
+  display: none;
+  padding: 0 3rem;
+  box-sizing: border-box;
+  z-index: 10;
+}
+.wrap .yanzheng .div {
+  width: 100%;
+  height: 12rem;
+  background: #ffffff;
+  margin-top: -23rem;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+}
+.wrap .yanzheng .div .cuo {
+  width: 1.5rem;
+  height: 1.5rem;
+  background: #000000;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  line-height: 1.5rem;
+  color: #fff;
+  font-size: 26px;
+}
+.wrap .yanzheng .div img {
+  width: auto;
+  height: 4rem;
+  background: none;
+  margin: 1.8rem 0;
+}
+.wrap .yanzheng .div p {
+  font-size: 14px;
+}
+
